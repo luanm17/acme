@@ -5,7 +5,7 @@ public class Dependente {
 	private int id;
 	private String nome;
 	private String matricula;
-	private Funcionario funcionario;
+	private String funcionario;
 	
 	public Dependente(){}
 	
@@ -27,10 +27,10 @@ public class Dependente {
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
-	public Funcionario getFuncionario() {
+	public String getFuncionario() {
 		return funcionario;
 	}
-	public void setFuncionario(Funcionario funcionario) {
+	public void setFuncionario(String funcionario) {
 		this.funcionario = funcionario;
 	}
 }
